@@ -14,7 +14,7 @@ const formatPrice = (p?: number) =>
 
 <template>
   <div class="products-view">
-    <h1>Products</h1>
+    <h1>Updated Products</h1>
 
     <div v-if="loading" class="loading" role="status">Loading products…</div>
     <div v-else-if="error" class="error" role="alert">
